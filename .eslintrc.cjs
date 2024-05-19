@@ -10,7 +10,7 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings",
   ],
-  ignorePatterns: ["dist", ".eslintrc.cjs", "vite.config.ts"],
+  ignorePatterns: ["docs", ".eslintrc.cjs", "vite.config.ts"],
   parser: "@typescript-eslint/parser",
   plugins: [
     "react-refresh",
