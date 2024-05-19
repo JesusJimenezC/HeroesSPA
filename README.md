@@ -38,7 +38,7 @@ HeroesSPA is a web application created with the intention of exploring and learn
     bun run dev
     ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available at `http://localhost:5173`.
 
 ## Usage
 
