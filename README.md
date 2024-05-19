@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# HeroesSPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+HeroesSPA is a web application created with the intention of exploring and learning about React. In this application, you can view a list of some heroes from DC and Marvel. The main purpose of the project is to experiment with various functionalities and tools in React, such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **useReducer**: Managing application state in a more complex way.
+- **Routing**: Navigating between different views of the application.
+- **Private and Public Routes**: Managing access to certain routes based on user authentication status.
+- **TypeScript**: Utilizing static typing to improve code quality.
+- **ESLint Configurations**: Maintaining a consistent and clean code standard.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Simple Login**: Implementation of a basic (hardcoded) login to simulate route protection and manage logged-in users.
+- **Heroes List**: Viewing heroes from DC and Marvel.
+- **Protected Routes**: Access to certain parts of the application only for authenticated users.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/JesusJimenezC/HeroesSPA.git
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+    ```bash
+    cd HeroesSPA
+    ```
+
+3. Install the dependencies:
+    ```bash
+    bun install
+    ```
+
+4. Start the application:
+    ```bash
+    bun run dev
+    ```
+
+The application will be available at `http://localhost:3000`.
+
+## Usage
+
+1. Open the application in your browser.
+2. Use the simple (hardcoded) login to access protected routes.
+3. Browse the list of heroes and explore the application's features.
+
+## License
+
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+
+## Contact
+
+Jesús Jiménez - [jesus.jimenezc.mx@gmail.com](mailto:youremail@example.com)
+
+Project Link: [HeroesSPA - Demo](https://heroes-spa-tau.vercel.app/login)
