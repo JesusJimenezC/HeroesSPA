@@ -21,7 +21,7 @@ export const HeroPage = (): ReactElement => {
         <img
           alt={hero.superhero}
           className="img-thumbnail animate__animated animate__fadeInLeft"
-          src={`/assets/heroes/${id}.jpg`}
+          src={`/heroes/${id}.jpg`}
         />
       </div>
       <div className="col-8">
