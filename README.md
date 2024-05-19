@@ -54,4 +54,4 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 
 Jesús Jiménez - [jesus.jimenezc.mx@gmail.com](mailto:youremail@example.com)
 
-Project Link: [HeroesSPA - Demo](https://heroes-spa-tau.vercel.app/login)
+Project Link: [HeroesSPA - Demo](https://heroes-spa-tau.vercel.app)
