@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import { LoginPage } from "../auth";
 import { HeroesRoutes } from "../heroes";
@@ -25,6 +25,15 @@ export const AppRouter = (): ReactElement => (
         </PrivateRote>
       }
       path="/*"
+    />
+
+    <Route
+      element={
+        <PublicRoute>
+          <Navigate to="/login" />
+        </PublicRoute>
+      }
+      path="*"
     />
   </Routes>
 );
